@@ -6,7 +6,7 @@ export default function Advantage(){
         <>
         <div className='AdvantageContainer' id='aboutUs'>
 
-            <div className='headingA' >-Advantages</div>
+            <div className='headingA' >Pride In Roker As The Future Of Parking</div>
         <div className='FlexOwn ' data-aos="zoom-in">
         <div className='AdvantageBox FlexOwn'>
             <img className='advantageImg' src={Advantagepoints[2].url} alt='advantage'/>

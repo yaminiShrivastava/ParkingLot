@@ -22,3 +22,9 @@
     height: 100%;
     width: 90%;
 }
+.subsHeading{
+    margin: 90px 0;
+    font-size: 2rem;
+    /* font-size: large; */
+    font-weight: bolder;
+}
