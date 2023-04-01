@@ -14,8 +14,12 @@ margin: 5% 0;
 
 .featureIconImg{
     border-radius: 10px;
- width: 80%;
+    /* border-radius: 5px; */
+ width: 100%;
 height: 50vh;
+}
+.FeatureImg{
+    border-radius: 10px;
 }
 .leftIconImg{
     grid-column: 2/3;
@@ -44,6 +48,12 @@ letter-spacing: 1px;
 font-size: 1.5rem;
 
 letter-spacing: 0.5px;
+}
+.FeatureImg{
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+
 }
 .icona{
     /* border: 2px solid orange; */

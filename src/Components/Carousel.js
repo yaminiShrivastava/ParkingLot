@@ -1,8 +1,13 @@
 import './Carousel.css'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import data from './MainCarousel.json'
 import { HiOutlineChevronRight,HiOutlineChevronLeft } from "react-icons/hi";
 export default function Carousel(props){
+    useEffect(()=>{
+        setTimeout(() => {
+            inc()
+        }, 4000);
+    })
     const [mainind,setmainind]=useState(0);
     const inc=()=>{
         if(mainind===1)setmainind(0);
@@ -19,7 +24,7 @@ export default function Carousel(props){
 
                 <img className='carouselImg' src={data[mainind].url} alt='sry' />
                 <div className='carouselcontent' >
-                    <div className='boldHeading' data-aos="zoom-in" data-aos-duration="2000">{data[mainind].bold}</div>
+                    <div className='boldHeading' data-aos="zoom-in"  data-aos-duration="2000">{data[mainind].bold}</div>
                     <div className='subHeading' data-aos="zoom-in" data-aos-duration="2000">{data[mainind].sub}</div>
                     <div className='CarouselText' data-aos="zoom-in" data-aos-duration="2000">{data[mainind].description}</div>
                     <button className='CarouselBtn' data-aos="zoom-in" data-aos-duration="2000">{data[mainind].btnText}</button>

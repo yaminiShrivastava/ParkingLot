@@ -27,8 +27,8 @@ export default function Feature() {
                 key={ind}
               >
                 {(!truewidth || ind % 2 === 0) && (
-                  <div className={ ind % 2 === 0 ? "FlexOwn leftIconImg" : "FlexOwn rightIconImg"}>
-                    <img className="featureIconImg " src={i.url} alt="nthng" data-aos="zoom-in"/>
+                  <div className={ ind % 2 === 0 ? "FlexOwn leftIconImg FeatureImg" : "FlexOwn rightIconImg FeatureImg"} data-aos="zoom-in">
+                    <img className="featureIconImg " src={i.url} alt="nthng" />
                   </div>
                 )}
 
