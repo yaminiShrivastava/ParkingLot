@@ -1,0 +1,23 @@
+
+.RokerPlusHeading{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin: 2% 0;
+    color: rgb(35, 35, 35);
+}
+.RokerPlus{
+    /* border: 2px solid red; */
+    background-color: white;
+    margin-bottom: 2%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:90px ;
+}
+.rokerplusimg{
+    height: 100%;
+    width: 90%;
+}

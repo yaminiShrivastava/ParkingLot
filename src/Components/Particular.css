@@ -1,0 +1,93 @@
+.ParticularCard{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid red; */
+    /* height: 300px; */
+    margin: 3% 2% ;
+    overflow: hidden;
+    width: 90%;
+    max-width: 350px;
+    box-sizing: border-box;
+    position: relative;
+}
+.AllParticularCards{
+    flex-wrap: wrap;
+}
+.ParticularCardImg{
+    height: 100%;
+    width: 100%;
+
+    border-radius: 4px;
+    opacity: 0.8;
+    transition: .8s;
+}
+.fullParticularBox{
+    padding-top: 90px;
+    height: auto;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.ParticularContents{
+    margin: 2% 0 0 0;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 2rem 2fr 4fr 2rem;
+}
+.PArticularCardBody{
+    
+    margin: -20% 0px 0 0; 
+    height: 100%;
+    width: 100%;
+    padding: 11px;
+    
+    box-sizing: border-box;
+    position: absolute;
+    transition: .9s;
+    background: rgba(0,0,0,0.6);
+}
+.ParticularCardHeading{
+    text-align: center;
+font-size: 1.4rem;
+}
+.ParticularCardContent{
+    visibility: hidden;
+    opacity: 0;
+font-size: 1.2rem;
+margin: 5% 2% 2% 5%;
+transition: 1s;
+}
+.ParticularCard:hover .PArticularCardBody{
+    height: 80%;
+    margin:-60% 0 0 0;
+}
+.ParticularCard:hover .ParticularCardContent{
+    visibility: visible;
+opacity: 1;
+}
+.ParticularCard:hover .ParticularCardImg{
+    
+    transform: scale(1.1);
+    filter: blur(2px);
+}
+
+
+.particularHeading{
+    font-size: 2.5rem;
+    grid-column: 2/3;
+    margin-right: 10px;
+}
+.particularDescription{
+    font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .ParticularContents{
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    .particularHeading{
+        text-align: center;
+        margin: 0 0 5% 0;
+    }
+  }

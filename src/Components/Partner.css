@@ -1,0 +1,120 @@
+.fullBox{
+    height: auto;
+    background-color: white;
+    display: flex;
+    margin: 5% 0%;
+    align-items: center;
+    padding: 2rem;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.PartnerBox{
+    margin: 2%;
+    -webkit-box-shadow: -1px 1px 41px -8px rgba(69,67,69,0.77);
+-moz-box-shadow: -1px 1px 41px -8px rgba(69,67,69,0.77);
+box-shadow: -1px 1px 41px -8px rgba(69,67,69,0.77);
+border-radius: 5%;
+    width: 45%;
+    height: auto;
+    min-height: 400px;
+}
+.PartnerLogo{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.PartnerImg{
+    /* border: 2px solid yellow; */
+    /* height: auto; */
+    height: 48%;
+    min-height: 40px;
+    width: auto;
+    margin: 9px 2%;
+}
+.ReviewBox{
+    margin: 2%;
+    /* border: 2px solid #0afa1a; */
+    width: 45%;
+    -webkit-box-shadow: -1px 1px 41px -8px #08144f;
+-moz-box-shadow: -1px 1px 41px -8px #08144f;
+box-shadow: -1px 1px 41px -8px #08144f;
+    height: auto;
+    border-radius: 5%;
+}
+.PartnerHeading{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2% 0 5% 0;
+    letter-spacing: 1px;
+}
+.ReveiwContentBox{
+    height: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0%;
+    justify-content: space-around;
+}
+.Review{
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    margin: 0 2%;
+}
+.ReviewBy{
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+.ReviewFrom{
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    color: rgb(56, 56, 56);
+}
+
+.NormalDot{
+    /* margin:"6px 4px"; */
+    /* position:relative; */
+    /* bottom: 1%; */
+    /* border: 2px solid pink; */
+}
+.activeDot{
+    color:rgb(0, 183, 255);
+    transition-duration:.5s ;
+    /* font-size: 1.5rem; */
+}
+@media only screen and (max-width: 800px) {
+    .fullBox{
+        flex-direction: column;
+    }
+    .ReviewBox,.PartnerBox{
+        width: 90%;
+    }
+    .PartnerHeading{
+        font-size: 1.8rem;
+    }
+    .Review{
+        font-size: 1rem;
+    }
+    .ReviewBy{
+        font-size:0.8rem;
+    }
+    .PartnerImg{
+        height: 50px;
+    }
+  }@media only screen and (max-width: 510px) {
+    
+    .PartnerImg{
+        height: 30px;
+    }
+  }@media only screen and (max-width: 350px) {
+    
+    .PartnerImg{
+        height: 1.5rem;
+        min-height: 1rem;
+    }
+  }

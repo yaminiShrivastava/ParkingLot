@@ -1,0 +1,52 @@
+
+.parallax-effect{
+    /* margin: 2%; */
+    border-radius: 20px;
+}
+.ImpactCard{
+    display: flex;
+    align-items: center;
+    /* margin: 2%; */
+    height: 300px;
+    /* border: 2px solid red; */
+    width: 350px;
+}
+.ImpactImg{
+    height: inherit;
+    object-fit: cover;
+    width: inherit;
+    position: absolute;
+    opacity: 0.8;
+    /* filter: blur(1px); */
+    z-index: -5;
+    
+    border-radius: 20px;
+
+}
+
+.ImpactContentBoxHeading{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 4% 2%;
+}
+.ImpactContentBoxText{
+    font-size: 1.2rem;
+    margin: 2% 6%;
+}
+.ImpactHeading{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 4%;
+}
+.ImpactBoxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+@media only screen and (max-width: 800px) {
+    .ImpactCard{
+        width: 300px;
+    }
+  }

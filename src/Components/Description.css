@@ -1,0 +1,26 @@
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    margin: 5% 0;
+    padding: 50px 0;
+
+    background: #ffffff url("https://wallpapers.com/images/hd/black-and-white-aesthetic-winding-road-9642s5hv2j4hdl4m.jpg") no-repeat ;
+    background-size:cover;
+}
+.descriptionHeading{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 4% 0;
+}
+.descriptionContent{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 5%;
+}
