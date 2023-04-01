@@ -2,6 +2,7 @@
 .RokerPlusHeading{
     font-size: 2.5rem;
     letter-spacing: 1px;
+    text-align: center;
     margin: 2% 0;
     color: rgb(35, 35, 35);
 }

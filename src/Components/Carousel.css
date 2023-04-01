@@ -86,7 +86,7 @@ z-index: -5;
 
 @media only screen and (max-width: 840px) {
     .carouselcontent{
-        width: 70%;
+        width: 80%;
     }
     .boldHeading{
         font-size: 2.5rem;
@@ -96,5 +96,9 @@ z-index: -5;
     }
     .CarouselText{
         font-size: 1rem;
+    }
+    .CarouselBtn{
+        width: 40%;
+        min-width: 100px;
     }
   }
