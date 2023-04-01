@@ -29,12 +29,12 @@ export default function Navbar(){
                 
             </div>
             <ul className='navItems '>
-                <li><Link to="Mobility" spy={true} smooth={true} offset={0} duration={700}>Urban Mobility</Link></li>
-                <li><Link to="aboutUs" spy={true} smooth={true} offset={0} duration={700} href=".aboutUs">About Us</Link></li>
-                <li><Link to="RokerPlus" spy={true} smooth={true} offset={0} duration={700} href="/">Platform</Link></li>
-                <li><Link to="toParticular" spy={true} smooth={true} offset={0} duration={700} href="/">Our World</Link></li>
-                <li><Link to="RokerApp" spy={true} smooth={true} offset={0} duration={700} href="/">Roker App</Link></li>
-                <li><Link to="test1" spy={true} smooth={true} offset={0} duration={700} href="/">Blog</Link></li>
+                <li><Link className='links' to="Mobility" spy={true} smooth={true} offset={0} duration={700}>Urban Mobility</Link></li>
+                <li><Link className='links' to="aboutUs" spy={true} smooth={true} offset={0} duration={700} href=".aboutUs">About Us</Link></li>
+                <li><Link to="RokerPlus" className='links' spy={true} smooth={true} offset={0} duration={700} href="/">Platform</Link></li>
+                <li><Link to="toParticular" className='links' spy={true} smooth={true} offset={0} duration={700} href="/">Our World</Link></li>
+                <li><Link to="RokerApp" className='links' spy={true} smooth={true} offset={0} duration={700} href="/">Roker App</Link></li>
+                <li><Link to="test1" className='links' spy={true} smooth={true} offset={0} duration={700} href="/">Blog</Link></li>
                 
             </ul>
             <div className='rght'>
@@ -45,12 +45,13 @@ export default function Navbar(){
 
             <div className={hamb===true?'mobileIcons':"nd"}>
             <ul className='mobileItems'>
-            <li><Link to="Mobility" spy={true} smooth={true} offset={0} duration={700}>Urban Mobility</Link></li>
-                <li><Link to="aboutUs" spy={true} smooth={true} offset={0} duration={700} href=".aboutUs">About Us</Link></li>
-                <li><Link to="RokerPlus" spy={true} smooth={true} offset={0} duration={700} href="/">Platform</Link></li>
-                <li><Link to="toParticular" spy={true} smooth={true} offset={0} duration={700} href="/">Our World</Link></li>
-                <li><Link to="RokerApp" spy={true} smooth={true} offset={0} duration={700} href="/">Roker App</Link></li>
-                <li><Link to="test1" spy={true} smooth={true} offset={0} duration={700} href="/">Blog</Link></li>
+            <li><Link className='links' to="Mobility" spy={true} smooth={true} offset={0} duration={700}>Urban Mobility</Link></li>
+                <li><Link className='links' to="aboutUs" spy={true} smooth={true} offset={0} duration={700} href=".aboutUs">About Us</Link></li>
+                <li><Link to="RokerPlus" className='links' spy={true} smooth={true} offset={0} duration={700} href="/">Platform</Link></li>
+                <li><Link to="toParticular" className='links' spy={true} smooth={true} offset={0} duration={700} href="/">Our World</Link></li>
+                <li><Link to="RokerApp" className='links' spy={true} smooth={true} offset={0} duration={700} href="/">Roker App</Link></li>
+                <li><Link to="test1" className='links' spy={true} smooth={true} offset={0} duration={700} href="/">Blog</Link></li>
+                
                 
             </ul>
             </div>

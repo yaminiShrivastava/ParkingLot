@@ -16,3 +16,9 @@
 .copyright{
     grid-column: 2/3;
 }
+.blue{
+    transition: .5s;
+}
+.blue:hover{
+    color: rgb(17, 152, 236);
+}

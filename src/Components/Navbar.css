@@ -36,7 +36,7 @@ li{
     margin:0 4px;
     list-style: none;
 }
-a{
+.links{
     
     font-weight: 700;
     position: relative;
@@ -175,11 +175,11 @@ img{
         }
   }
   
-  a:hover{
+  .links:hover{
     color: #00d5ff;
 
 }
-a:after{
+.links:after{
     content: "";
     position: absolute;
     background-color: #00d5ff;

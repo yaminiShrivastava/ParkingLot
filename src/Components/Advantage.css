@@ -37,12 +37,27 @@
     filter: none;
 }
 .headingA{
-
+/* background-color: red; */
     /* border: 2px solid brown; */
     font-size: 3rem;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin:0 0 2% 1%;
     font-weight: bold;
+}
+.headingA:after{
+    content: "";
+    position: absolute;
+    background-color: #00d5ff;
+    height: 3px;
+    /* border-bottom: 2px solid yellow; */
+    /* width: 80%; */
+    width: 0%;
+    left: 0%;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.headingA:hover:after{
+    width: 100%;
 }
 .AdvantageContainer{
     box-sizing: border-box;

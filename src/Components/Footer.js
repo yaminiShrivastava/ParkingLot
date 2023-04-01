@@ -9,10 +9,10 @@ export default function Footer(){
             <div className='light copyright'> © Copyright 2021 Roker.Inc. All rights reserved.</div>
             <div className='socialMedia'>
                 <ul className='smIcons'>
-                    <li className='light'><BsFacebook/></li>
-                    <li className='light'><BsTwitter/></li>
-                    <li className='light'><BsLinkedin/></li>
-                    <li className='light'><BsInstagram/></li>
+                    <li className='light blue'><BsFacebook/></li>
+                    <li className='light blue '><BsTwitter/></li>
+                    <li className='light blue'><BsLinkedin/></li>
+                    <li className='lightblue'><BsInstagram/></li>
                 </ul>
             </div>
         </div>

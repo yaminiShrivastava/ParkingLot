@@ -17,6 +17,7 @@ box-shadow: -1px 1px 41px -8px rgba(69,67,69,0.77);
 border-radius: 5%;
     width: 45%;
     height: auto;
+    padding: 2%;
     min-height: 400px;
 }
 .PartnerLogo{
